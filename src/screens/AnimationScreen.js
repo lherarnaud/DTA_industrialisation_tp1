@@ -40,10 +40,6 @@ export default class AnimationScreen extends Component {
   };
 
   render() {
-    const marginLeft = this.spinValue.interpolate({
-      inputRange: [0, 1],
-      outputRange: [0, 300]
-    })
 
     const spin = this.spinValue.interpolate({
         inputRange: [0, 1],
